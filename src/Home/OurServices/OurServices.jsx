@@ -1,5 +1,6 @@
 import React from "react";
 import CardComponent from "../../components/Card/CardComponent";
+import cardBG from "../../assets/Bg_vector/blur backgrond.png";
 
 // __________Card Data_____________
 const cardsList = [
@@ -121,7 +122,7 @@ const cardsList = [
 
 const OurServices = () => {
   return (
-    <div className="mt-[150px] mx-5 md:mx-10 lg:mx-[316px]">
+    <div className="mt-[150px] mx-5 md:mx-10 xl:mx-[150px] 2xl:mx-[316px]">
       <h6 className="text-base font-medium font-inter leading-[22px] uppercase mb-3">
         our Services
       </h6>
@@ -136,7 +137,11 @@ const OurServices = () => {
       </section>
 
       {/* ------------Services Card------------- */}
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 mb-[150px] rounded-xl bg-[#dcf59940] backdrop-filter backdrop-blur-lg    ">
+      {/* ?????????????____________Background Color ta kaj korteche na ______________????????????? */}
+      <section
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 mb-[150px] rounded-xl    "
+        style={{ background: `url(${cardBG})`, backgroundPosition: "center" }}
+      >
         {cardsList?.map((card) => (
           <CardComponent key={card.id} card={card}></CardComponent>
         ))}

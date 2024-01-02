@@ -4,7 +4,7 @@ import bgVectorLine from "../../assets/Bg_vector/Line.svg";
 
 const ProductivityArea = () => {
   return (
-    <div>
+    <div className="mt-[130px]">
       <section className="text-center mx-5 md:mx-20 lg:mx-0">
         <h1 className="text-base font-medium font-inter uppercase leading-[22px] mb-3">
           Top Integration

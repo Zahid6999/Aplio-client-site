@@ -327,7 +327,7 @@ const Testimonial = () => {
         </h1>
       </section>
       {/* _____________testimonial Card_________________ */}
-      <main className=" bg-[#dcefab33]   grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-4 md:mx-10 lg:mx-[316px]  rounded-3xl justify-center justify-items-center">
+      <main className=" bg-[#dcefab33]   grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-4 md:mx-10 xl:mx-[140px] 2xl:mx-[316px]  rounded-3xl justify-center justify-items-center">
         {testimonialInformation?.map((cardInfo) => (
           <CardInformation
             key={cardInfo.id}

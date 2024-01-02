@@ -47,7 +47,7 @@ const FAQ = () => {
         paddingTop: "128px",
         paddingBottom: "130px",
       }}
-      className="lg:flex px-4 md:px-10 lg:px-[316px] gap-[136px]"
+      className="lg:flex px-4 md:px-10 xl:px-[130px] 2xl:px-[316px] lg:gap-7 xl:gap-20 2xl:gap-[136px]"
     >
       <section className="lg:w-1/2">
         <h3 className="text-base font-inter font-medium uppercase leading-[22px] ">

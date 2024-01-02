@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="-mt-64 px-7 pb-[148px] md:px-10 lg:px-[318px] bg-[#f8faf0]  lg:flex  lg:gap-[92px]">
+    <div className="-mt-64 px-7 pb-[148px] md:px-10 lg:px-32  2xl:px-[316px] bg-[#f8faf0]  lg:flex  lg:gap-[92px]">
       <motion.section
         initial={{ x: -1000 }}
         animate={{ x: 0 }}

@@ -23,7 +23,7 @@ const dataList = [
 
 const StrongSolution = () => {
   return (
-    <div className="lg:flex lg:flex-row-reverse lg:gap-24 items-center px-5 md:px-10 lg:px-[316px]">
+    <div className="lg:flex lg:flex-row-reverse gap-11 2xl:gap-24 items-center px-5 md:px-10  xl:px-[100px] 2xl:px-[316px]">
       <section className="mb-5 md:mb-10 lg:mb-0 xl:mb-0">
         <h1 className="text-base font-medium font-inter uppercase leading-[22px] mb-3">
           Strong Solutions

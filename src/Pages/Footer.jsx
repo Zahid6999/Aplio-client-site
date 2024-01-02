@@ -6,7 +6,7 @@ import behance from "../assets/CompanyLogo/behance.svg";
 import HorizontalLine from "../components/SvgComponent/HorizontalLine";
 const Footer = () => {
   return (
-    <footer className="px-7 md:px-12 lg:px-[316px] py-[72px]">
+    <footer className="px-7 md:px-12 xl:px-[140px] 2xl:px-[316px] py-[72px]">
       <div className=" md:flex ">
         <section className="md:w-1/2">
           <h1 className="text-3xl font-semibold leading-[78px]">aplio</h1>
