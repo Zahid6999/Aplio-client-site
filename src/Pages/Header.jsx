@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Navbar } from "keep-react";
 import { MagnifyingGlass } from "phosphor-react";
 import vectorImg1 from "../assets/Bg_vector/topVector.svg";
-
+import { motion } from "framer-motion";
 // _______________Nav List___________________
 const navList = (
   <>
@@ -29,7 +29,7 @@ const navList = (
 
 const Header = () => {
   return (
-    <div
+    <motion.div
       style={{
         background: `url(${vectorImg1})`,
         height: "520px",
@@ -38,6 +38,9 @@ const Header = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
+      initial={{ y: 50, opacity: 0 }}
+      transition={{ duration: 1.1 }}
+      animate={{ y: 0, opacity: 1 }}
       className="lg:px-[155px] !bg-[#f7faf2] "
     >
       <Navbar fluid={true}>
@@ -81,7 +84,7 @@ const Header = () => {
           </Navbar.Container>
         </Navbar.Container>
       </Navbar>
-    </div>
+    </motion.div>
   );
 };
 

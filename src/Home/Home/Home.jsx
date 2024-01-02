@@ -10,13 +10,18 @@ import chart from "../../assets/Bg_vector/Group 1000002107.png";
 import chartAreaBg from "../../assets/Bg_vector/1.png";
 import bottomVector from "../../assets/Bg_vector/bottomVector .svg";
 import Rating from "react-rating";
+import { motion } from "framer-motion";
 
 // Chart---------------------------
 
 const Home = () => {
   return (
     <div className="-mt-64 px-7 pb-[148px] md:px-10 lg:px-[318px] bg-[#f8faf0]  lg:flex  lg:gap-[92px]">
-      <section>
+      <motion.section
+        initial={{ x: -1000 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.7, delay: 0.5, type: "spring" }}
+      >
         <p className="text-base text-[#18181B] font-medium font-inter uppercase leading-5 ">
           50k+ Trusted Businesses
         </p>
@@ -42,14 +47,17 @@ const Home = () => {
             Get Started
           </Button>
         </div>
-      </section>
+      </motion.section>
 
-      <section
+      <motion.section
         className="mt-10  lg:-mt-12"
         style={{
           backgroundImage: `url(${chartAreaBg})`,
           backgroundRepeat: "no-repeat",
         }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.6, delay: 0.8 }}
       >
         <div className="w-[350px]  flex-shrink-0 bg-[#fff] p-[10px] rounded-[20px] shadow-[ 0px 0px 30px 0px rgba(0, 0, 0, 0.05)] md:ml-16">
           <div className="border-[1px] border-[#DCE0D3] border-dashed rounded-xl p-6">
@@ -158,7 +166,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 };
