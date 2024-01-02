@@ -38,7 +38,7 @@ const Header = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="lg:px-[155px] !bg-[#f7faf2]"
+      className="lg:px-[155px] !bg-[#f7faf2] "
     >
       <Navbar fluid={true}>
         <Navbar.Container className="flex items-center justify-between lg:px-[160px] pt-4">
