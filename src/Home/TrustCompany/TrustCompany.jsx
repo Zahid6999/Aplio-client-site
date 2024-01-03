@@ -43,7 +43,13 @@ const TrustCompany = () => {
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-16 2xl:gap-[114px] mx-5 md:mx-10 lg:mx-[216px] xl:mx-[316px] border-t border-b  border-dashed border-[#DCE0D3] py-10">
         {imgList.map((trustCompany) => (
-          <img className="" key={trustCompany.id} src={trustCompany.img}></img>
+          <>
+            <img
+              className=""
+              key={trustCompany.id}
+              src={trustCompany.img}
+            ></img>
+          </>
         ))}
       </div>
       <button className=" flex mx-auto justify-center py-[13px] px-[30px] text-base font-medium leading-6 tracking-[-0.3px] border-[1px] border-[#EDF0E6] rounded-[30px] mt-[62px]">

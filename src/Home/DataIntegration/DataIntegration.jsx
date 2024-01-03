@@ -29,7 +29,7 @@ const DataIntegration = () => {
         background: `url(${dataIntegrationBG})`,
         backgroundPosition: "center",
       }}
-      className="lg:flex lg:gap-[100px] pt-[277px] pb-[185px] relative -mt-20 w-full  -z-10 px-5 md:px-10 xl:px-[150px] 2xl:px-[317px] mb-[150px]"
+      className="lg:flex lg:gap-[100px] pt-[277px] pb-[185px] relative -mt-20 w-full  -z-10 px-5 md:px-10 xl:px-[150px] 2xl:px-[317px] "
     >
       <section>
         <h1 className="text-base font-medium font-inter uppercase leading-[22px] mb-3">

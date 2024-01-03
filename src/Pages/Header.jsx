@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Navbar } from "keep-react";
 import { MagnifyingGlass } from "phosphor-react";
-import vectorImg1 from "../assets/Bg_vector/topVector.svg";
+import vectorImg1 from "../assets/Bg_vector/BG (1).png";
 import { motion } from "framer-motion";
 // _______________Nav List___________________
 const navList = (
@@ -37,14 +37,15 @@ const Header = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        // backgroundColor: "#f8faf0",
       }}
       initial={{ y: 50, opacity: 0 }}
       transition={{ duration: 1.1 }}
       animate={{ y: 0, opacity: 1 }}
-      className="lg:px-[55px] xl:px-[150px] 2xl:px-[150px] relative z-30  bg-[#f1f3e5]"
+      className="lg:px-[55px] xl:px-[150px] 2xl:px-[150px] relative z-50  bg-[#f8faf0]"
     >
       <Navbar fluid={true}>
-        <Navbar.Container className="flex items-center justify-between xl:px-[15px] 2xl:px-[160px] absolute z-0 pt-4 ">
+        <Navbar.Container className="flex items-center justify-between xl:px-[15px] 2xl:px-[160px]  absolute z-1 pt-4 ">
           <Navbar.Brand>
             <h1 className=" text-[30px] font-semibold leading-[78px] ">
               aplio

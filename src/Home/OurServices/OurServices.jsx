@@ -1,6 +1,6 @@
 import React from "react";
 import CardComponent from "../../components/Card/CardComponent";
-import cardBG from "../../assets/Bg_vector/blur backgrond.png";
+import cardBG from "../../assets/Bg_vector/Faq-bg.png";
 
 // __________Card Data_____________
 const cardsList = [
@@ -140,7 +140,7 @@ const OurServices = () => {
       {/* ?????????????____________Background Color ta kaj korteche na ______________????????????? */}
       <section
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 mb-[150px] rounded-xl    "
-        style={{ background: `url(${cardBG})`, backgroundPosition: "center" }}
+        style={{ background: `url(${cardBG})` }}
       >
         {cardsList?.map((card) => (
           <CardComponent key={card.id} card={card}></CardComponent>

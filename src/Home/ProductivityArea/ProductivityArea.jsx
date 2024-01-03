@@ -1,6 +1,6 @@
 import React from "react";
-import productBg from "../../assets/Images/Integration.png";
-import bgVectorLine from "../../assets/Bg_vector/Line.svg";
+import productBg from "../../assets/Bg_vector/export.png";
+// import bgVectorLine from "../../assets/Bg_vector/Line.svg";
 
 const ProductivityArea = () => {
   return (
@@ -22,11 +22,11 @@ const ProductivityArea = () => {
       </section>
 
       <section
-        style={{
-          backgroundImage: `url(${bgVectorLine})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
+        // style={{
+        //   backgroundImage: `url(${bgVectorLine})`,
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "center",
+        // }}
         className="-mt-10 md:-mt-20  "
       >
         <img src={productBg} alt="" className="mx-auto hidden md:block" />
